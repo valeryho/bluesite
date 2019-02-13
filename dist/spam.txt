@@ -1,0 +1,29 @@
+                                    <div class="guarantee_plagiralism ">
+                                        <div class="col l3 truncate">
+                                            100% Authenticity Guarantee 100%
+                                        </div>
+                                        <div class="col l2 truncate">
+                                            100% Plagiarism Free
+                                        </div>
+                                    </div>
+                                    <div class="col l5">
+                                        <a href="#!" class="brand-logo"><img class="responsive-img" src="G.svg" alt=""></a></a>
+                                    </div>
+                                    
+
+
+                                <a href="#" data-activate="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                                <ul >
+                                    <li><a href="#"> About US</a> </li>
+                                    <li><a href="#">Order Now</a> </li>
+                                    <li><a href="#">Services</a> </li>
+                                    <li><a href="#">How It Works</a> </li>
+                                    <li><a href="#">Guarantees </a> </li>
+                                    <li><a href="#">Why Us</a> </li>
+                                    <li><a href="#">Discounts</a> </li>
+                                    <li><a href="#">FAQ</a> </li>
+                                    <li><a href="#">Prices</a> </li>
+                                    <li><a href="#">Testimonials</a> </li>
+                                    <li><a href="#">Blog</a> </li>
+                                    <li><a href="#">Contact Us</a> </li>
+                                </ul>
