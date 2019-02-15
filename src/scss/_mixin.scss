@@ -1,0 +1,20 @@
+@mixin Smaler_then_1024{
+    @media screen and (max-width:1024px){
+        @content;
+    }
+}
+@mixin Smaler_then_320{
+    @media screen and (max-width:360px){
+        @content;
+    }
+}
+@mixin Smaler_then_1200{
+    @media screen and (max-width:1200px){
+        @content;
+    }
+}
+@mixin Smaler_then_360{
+    @media screen and (max-width:414px){
+        @content;
+    }
+}

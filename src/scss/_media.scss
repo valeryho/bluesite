@@ -1,5 +1,48 @@
-@mixin lg (){
-    @media only screen and (max-width: 1200px){
-        @content;
+@media screen and (min-width:1025px)// biger then 1024
+{
+    .wrapper{
+    display: none;
+    }
+    header .head
+    {
+        border-bottom: 3px solid #e1e1e1;
+    }
+
+}
+@media screen and (max-width:1024px)// smaler then 1024
+{
+    .guarantee_plagiralism{
+    display: none;
+    }
+    .brand-logo
+    {
+        margin-left: 20%;
+        width: 40%;
+        padding-left: 4%;
+        max-height:40px ;
+    }
+    .buttons
+    {    
+        font-size: 15px;
+    }
+    .naw_p{
+        display: none;
+    }
+        
+}
+@media screen and (max-width:320px)// smaler then 319
+{
+    .logo
+    {
+        width: 70%;
+        .brand-logo
+        {
+            max-height:40px ;
+        }
+    }
+    .fon_picture
+    {
+        height: 400px;
+        background: #2c3248;
     }
 }
