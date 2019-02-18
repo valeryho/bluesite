@@ -1,6 +1,7 @@
 // @import '_variables.scss';
 @import '_mixin.scss';
 @import '_media';
+@import '_variables';
 // @import "functions";
 // @import "loop";
 @import "_burger";
@@ -15,7 +16,7 @@ header{
     .guarantee_plagiralism
     {
         text-align: left;
-        font-family: "Myriad Pro";
+        font-family:$font-secondary;
         font-size: 17px;
         font-weight: 400;
         color: #5075e7;
@@ -41,7 +42,7 @@ header{
     .naw_p
     {
         width: 100%;
-        font-family: "Proxima Nova";
+        font-family: $font-secondary;
         color: #2c3248;
         
         ul{
@@ -89,7 +90,7 @@ header{
         .welcom{
             margin-top: 1%;
             color: #19152d;
-            font-family: "Proxima Nova";
+            font-family: $font-secondary;
             font-size: 2.4rem;
              @include Smaler_then_320
             {
@@ -99,7 +100,7 @@ header{
         }
         .site_
         {
-            font-family: "Proxima Nova";
+            font-family: $font-secondary;
             color: #5378e8;
             font-size: 2.4rem;
             text-transform: uppercase;
@@ -116,7 +117,7 @@ header{
         .customer_w
         {
             color: #19152d;
-            font-family: "Proxima Nova";
+            font-family: $font-secondary;
             font-size: 1.5rem;
              @include Smaler_then_360
             {
@@ -155,7 +156,7 @@ header{
                     margin-top: 1rem;
                     
                     color: #9824da;
-                    font-family: "Proxima Nova";
+                    font-family: $font-secondary;
                     font-size: 30px;
                     text-align: center;
                      @include Smaler_then_1200
@@ -167,7 +168,7 @@ header{
                 .get_prise_sub_title
                 {
                     margin-left: 1rem;
-                    font-family: "Proxima Nova";
+                    font-family: $font-secondary;
                     font-size: 18px;
                     font-weight: 300;
                         margin: .8rem .5rem 0.2rem 0.5rem;
@@ -178,7 +179,7 @@ header{
                     width: 100%;
                     height: 2.5rem;
                     color: #19152d;
-                    font-family: "Proxima Nova";
+                    font-family: $font-secondary;
                     font-size: 18px;
                     border: 1px solid #56a7dd;
                     border-radius: 20px ;
@@ -316,14 +317,14 @@ header{
         {
             color: #171717;
             margin-top: 1rem;
-            font-family: "Proxima Nova";
+            font-family: $font-secondary;
             font-weight: bold;
             font-size: 25px;
             padding-left: 1rem;
         }
         .steps_subscribe{
         color: #171717;
-        font-family: "Proxima Nova";
+        font-family: $font-secondary;
         font-size: 18px;
         padding-left: 1rem;
         }
@@ -331,3 +332,101 @@ header{
     }
 }
 
+.during{
+color: #19152d;
+font-family: "Proxima Nova";
+font-size: 20px;
+text-align: justify;
+}
+.buttons_rmoc
+{
+    a
+   {
+    text-decoration: none;
+    width: 80%;
+   
+   }
+    
+    font-family: 'primery_font';
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+  
+   
+
+    .button_rm
+    {
+          @include Smaler_then_600
+   { 
+  
+    margin-top: 2%;
+    }
+        padding-top: 1.8%;
+        height: 40px;
+        border-radius: 10px;
+        background: linear-gradient(to top, #9219d7 0%, #c16ef0 100%);
+    }
+    .button_oc
+    
+    {
+      
+         @include Smaler_then_600
+   { 
+  
+    margin-top: 2%;
+    }
+        padding-top: 1.8%;
+        height: 40px;
+        border-radius: 10px;
+        background:linear-gradient(to top, #5075e7 0%, #8cadf4 100%); 
+    
+    }
+
+}
+.why_us{
+    height: 400px;
+    background: url(Forma1.png) no-repeat 30% 50%/25%,
+     linear-gradient(to left, #597eeb 0%, #8cadf4 100%)no-repeat 0% 0%/50%,
+     #ebebeb;
+     position: relative;
+
+     @include Smaler_then_1200{
+     background: url(Forma1.png) no-repeat 50% 50%/25%, linear-gradient(to left, #597eeb 0%, #8cadf4 100%) no-repeat 0% 0%/100%, #ebebeb;
+        text-align: center;
+    }
+
+
+
+.why_us_half_shadow
+{
+    position: absolute;
+    left: -1px;
+    height: 100%;
+    width: 50%;
+    opacity: 0.4;
+    box-shadow: 9px 0px 8px -3px rgba(0, 0, 0, 0.5);
+    @include Smaler_then_1200{
+        display: none;
+
+    }
+}
+         
+        .why_us1_title
+        {
+             margin-top: 11%;
+            color: #ffffff;
+        
+            font-size: 58px;
+            font-display: uppercase;
+        }
+         .why_us1_content
+         {
+             margin-top: 9%;
+            color: #ffffff;
+            font-family: "Proxima Nova";
+            font-size: 19px;
+            text-align: justify;
+         }
+
+    
+}
