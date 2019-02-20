@@ -23,3 +23,9 @@
         @content;
     }
 }
+
+@mixin Smaler_then_1440{
+    @media screen and (max-width:1440px){
+        @content;
+    }
+}

@@ -14,6 +14,7 @@
     text-align: center;
     height: 40px;
     font-family: 'Arial';
+    z-index:1 ;
 }
 
 #check-menu{
@@ -30,6 +31,7 @@ label{
     cursor: pointer;
     z-index: 2;
     line-height: 40px;
+    z-index:1 ;
 }
 
 .burger-line{
@@ -40,6 +42,7 @@ label{
     height: 5px;
     background-color: #6d90ed;
     transition: .5s all;
+    z-index:1 ;
 }
 
 .second, .third{
